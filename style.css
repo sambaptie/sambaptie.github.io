@@ -1,0 +1,16 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: lime;
+	color: yellow;
+	font-family: helvetica;
+}
+main {
+	padding: 1em;
+}
+h1 {
+	margin: 0 0 1em 0;
+}
+p {
+	margin: 0 0 1em 0;
+}
