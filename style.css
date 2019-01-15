@@ -10,14 +10,8 @@ body {
 main {
 	padding: 1em;
 	text-align: center;
-	background-image: linear-gradient( -90DEG, #A6A6A8, #CECECE, #A6A6A8 );
-    font-family: Brush Script MT,cursive;
-    font-size: 60px;
-    text-align: center;
-    color: #272635;
-    border-style: solid;
-    border-color: #E8B923;
-    border-width: 10px;
+	text-size: 20em;
+	
 }
 h1 {
 	margin: 0 0 1em 0;
