@@ -2,14 +2,16 @@ body {
 	margin: 0;
 	padding: 0;
 	background:#f3f3f3;
-	color: black;
+	color: 201F1F;
 	font-family: helvetica;
 }
 main {
 	padding: 1em;
+	text-align: center;
 }
 h1 {
 	margin: 0 0 1em 0;
+	text-align: center;
 }
 p {
 	margin: 0 0 1em 0;
