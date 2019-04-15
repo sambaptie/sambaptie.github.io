@@ -1,29 +1,180 @@
+/* SITE: WILLIAM GIBSON */
+
+/* BASE */
+* {
+  box-sizing: border-box;
+}
 body {
-	margin: 0;
-	padding: 0;
-	background:#f3f3f3;
-	color: 201F1F;
-	font-family: helvetica;
-	
-	
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3;
+  margin: 0;
+  padding: 0;
+  max-width: 100vw;
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: ariel; /* Your main typeface */
+  color: black;            /* Your main text color */
+  background-color: #EAE5DE; /* Your main background color */
+}
+img {
+  max-width: 100%;
+  height: auto;
+  position: absolute;
 }
 main {
-	padding: 1em;
-	text-align: center;
-	background-image: linear-gradient( -90DEG, #A6A6A8, #CECECE, #A6A6A8 );
-    font-family: Brush Script MT,cursive;
-    font-size: 50px;
-    text-align: center;
-    color: #272635;
-    
-	
+  display: block;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 0;
 }
-h2 {
-	margin: 0 0 1em 0;
-	text-align: center;
-	background-color: #6a6a6a;
-	font-size: 40px;
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100vw;
+  height: 3em;
+  margin: 0;
+}
+section {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVIGATION */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2D2D2B;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+/* TYPOGRAPHY */
+a {
+  text-decoration: none;
+  color: blue;             /* Your main link color */
 }
 p {
-	margin: 0 0 1em 0;
+  margin: auto;
+  max-width: 40em;
+  text-align: justify;
+  font-family: sans-serif;
+  
+  
 }
+
+h1 {
+    font-family: courier;
+    text-align: center;
+    font-size: 6em;
+    letter-spacing: 6px;
+    padding-top: 100px;
+    border-bottom: 4px solid #D4C7BE;
+
+}
+h2 {
+    font-family: courier;
+    text-align: center;
+    font-size: 4em;
+    letter-spacing: 5px;
+    padding-top: 5px;
+    border-bottom: 4px solid #D4C7BE;
+    
+
+}
+h3 {
+    
+
+}
+h4 {
+    font-family: sans-serif;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    text-align: right;
+    padding-right: 60px;
+
+}
+h5 {
+
+}
+h6 {
+
+}
+
+
+/* GRID */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.column {
+  width: 100%;
+  padding: 0.25em;
+}
+
+
+/* links */
+.links{
+    color: #D4C8BE;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 3px;
+    word-spacing: 25px;
+    font-size: 25px;
+    font-family: sans-serif;
+    border-top: 4px solid #D4C7BE;
+    padding-top: 15px;
+}
+
+.books{
+    font-family: sans-serif;
+    padding-left: 500px;
+    
+}
+
+.div{
+    padding-left: 50px;
+}
+
+
+  
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 40em) {
+  .column {
+    width: 50%;
+  }
+}
+/* Include any other media queries you may need here! */
+
+
+
